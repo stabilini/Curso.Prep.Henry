@@ -1,0 +1,30 @@
+Las variables son formas de guardar informacion de manera temporal por un programa. Usan un espacio en la memoria mientras el programa esta en ejecucion.
+
+La variables se clasifican por tipos de datos que manejan, siendo los mas comunes y en uso en programas los siguientes tipos:
+- numeros
+- strings
+- boolean
+
+Las variables de tipo numero almacenan numeros, pueden ser enteros, con decimales, positivos, negativos, etc.
+Las variables de tipo string son cadenas de caracteres, estos caracteres pueden ser letras, numeros o glifos graficos.
+Las variables de tipo booleanas pueden tener dos estados> TRUE (verdadero) o FALSE (falso).
+
+Las variables pueden adquirir otros dos tipos de estados> NULL y UNDEFINED
+- NULL es como decir "nada" (no es vacio, ni cero, ni falso)
+- UNDEFINED indica que la variable no fue definida
+
+La diferencia entre ambos es que una variable puede estar definida en el programa pero tener un estado NULL, por ejemplo, para una variable booleana significa que no es ni TRUE ni FALSE, porque aun no se le asigno un valor.
+
+Mientras que una variable UNDEFINED es una variable que aun no fue definida, o sea, no existe.
+
+
+La declaracion IF se usa para controlar que sucede con un programa, o sea, que decisiones va tomando el programa para hacer una tarea. La estructura es muy simple, de forma intuitiva se puede decir que "SI tal condicion se cumple > se hace tal cosa ... si no se cumple > se hace esta otra cosa"
+
+por ejemplo>
+if (x == 1) {
+    console.log('X es igual a 1');
+} else {
+    console.log('X no es igual a 1');
+}
+
+Esto se traduce como: SI la variable X tiene el valor 1, se imprime un texto que diga 'X es igual a 1', de lo contrario se imprime el texto 'X no es igual a 1'
