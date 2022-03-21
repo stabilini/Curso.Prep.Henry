@@ -1,0 +1,49 @@
+FOR es una declaracion que provoca un bucle para repetir un fragmento de codigo una determinada cantidad de veces
+
+La estructura es muy simple>
+- Se inicializa la variable con el conteo inicial
+- Se establece una condicion para que el bucle se detenga
+- Se determina el paso, o conteo secuencial o incremental
+
+Por ejemplo>
+for (var n = 0; n < 10; n++) {
+    // bloque codigo que se repite n veces
+}
+
+En el primer parametro definimos como contador a la variable n con el valor 0, cuando el bloque de codigo
+se ejecute por primera vez n valdra 0.
+
+En el segundo parametro establecemos la condicion para que el bucle se repita, en este caso mientras n sea
+menor que 10 el bucle continuara repitiendose.
+
+En el tercer parametro definimos el paso incrementando n en 1 cada vez que el codigo se repite.
+
+
+&&, || y ! son opradores booleanos.
+
+Estos operadores se aplican a elementos matematicos booleanos, donde solo hay dos estados posibles: TRUE y FALSE.
+
+El operador && significa "Y", el operador "||" significa "O" y el operador "!" significa "NOT".
+
+El mas sencillo de explicar es "!" o sea NOT. NOT invierte un estado booleano, si es TRUE pasa a ser FALSE y si es FALSE pasa a ser TRUE.
+
+&& devuelve como resultado TRUE solo si todas las expresiones que evalua son TRUE
+Por ej>
+if (5 > 2 && 30 < 50) ----> if (TRUE && TRUE) ----> if (TRUE)
+
+Pueden usarse mas de dos expresiones para comparar>
+if (5 > 2 && 30 < 50 && 45 == 45) ----> if (TRUE && TRUE && TRUE) ----> if (TRUE)
+
+Si alguno de las expresiones es FALSE, el resultado sera FALSE>
+if (5 > 2 && 30 < 50 && 45 == 100) ----> if (TRUE && TRUE && FALSE) ----> if (FALSE)
+
+
+|| devuelve como resultado TRUE si cualquiera de las expresiones que evalua son TRUE
+Por ej>
+if (5 > 2 || 30 < 10) ----> if (TRUE && FALSE) ----> if (TRUE)
+
+Pueden usarse mas de dos expresiones para comparar>
+if (5 > 2 || 30 < 10 || 45 == 45) ----> if (TRUE || FALSE || TRUE) ----> if (TRUE)
+
+El resultado sera FALSE solo si todas las expresiones son FALSE>
+if (5 > 8 || 30 < 10 || 45 == 100) ----> if (FALSE || FALSE || FALSE) ----> if (FALSE)
