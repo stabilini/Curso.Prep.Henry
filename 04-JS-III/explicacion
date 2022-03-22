@@ -1,0 +1,7 @@
+Los arrays, o arreglos en español, son una forma de trabajar con grupos de datos en javascript.
+
+Un arreglo es como un grupo de cajitas donde en cada cajita se puede guardar informacion de tipo numero, string, booleana, etc.
+
+Tambien se pueden guardar funciones y otros arreglos. En este caso es como su una cajita tuviera a su vez un conjunto de cajitas en su interior.
+
+Estas cajitas pueden ser manipuladas, agregando mas cajitas al final, eliminando cajitas, o accediendo a lo que contienen usando codigo.
