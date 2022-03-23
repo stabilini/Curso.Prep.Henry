@@ -1,0 +1,20 @@
+Objetos:
+Los objetos son un arreglo de cosas, donde en vez de numerar esas cosas desde el CERO en adelante, se puede reemplazar esa numeracion con nombres o etiquetas.
+
+Las propiedades son los nombres o etiquetas que se ponen a las cosas que se almacenan en el objeto.
+
+Los métodos son funciones que se almacenan en el objeto.
+
+El bucle "for in" itera sobre todas las propiedades de un objeto.
+
+La notación con corchetes permite identificar una propiedad dentro de un objeto, por ej:
+
+miObjeto[color] = 'rojo';
+
+define el string rojo en la propiedad color del objeto "miObjeto"
+
+La notacion por puntos permite simplificar o hacer mas intuitivo el manejo de objeto, en el ejemplo anterior quedarias asi:
+
+miObjeto.color = 'rojo'
+
+La notacion por puntos no permite usar variables como elementos para representar propiedades.
