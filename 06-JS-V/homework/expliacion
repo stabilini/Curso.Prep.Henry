@@ -1,0 +1,5 @@
+Todos los objetos que definimos en javascript tienen sus propias propiedades, pero tambien tienen a su vez un prototipo del cual pueden heradar propiedades o funciones. Al definir un prototype se definen las caracteristicas b[asicas a la cual los objetos pueden hacer referencia sin necesidad de definirlas en cada objeto.
+
+El Constructor es una funcion que "fabrica" objetos, basicamente permite crear varios objetos que tengan las mismas propiedades. Para eso se usan las keywords THIS (para hacer referencia al mismo objeto) y la keyword NEW para crear el nuevo objeto.
+
+Por convencion se nombra al function constructor comenzando con mayuscula.
