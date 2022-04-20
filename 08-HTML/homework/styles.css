@@ -1,15 +1,5 @@
-#spanId {
-    margin: 50px;
-    font-size: 18px;
-}
-
-#thirdDiv {
-    padding: 50px;
-    border: 3px;
-    border-color: deeppink;
-    height: 600px;
-    width: 500px;
-    background-color: darkred;
+body {
+    background-image: url('https://st.depositphotos.com/2772447/3682/v/600/depositphotos_36823497-stock-illustration-seamless-geometric-pattern.jpg');
 }
 
 h1 {
@@ -19,3 +9,27 @@ h1 {
 img {
     width: 400px;
 }
+
+div {
+    text-align: center;
+}
+
+#spanId {
+    margin: 50px;
+    font-size: 18px;
+}
+
+#thirdDiv {
+    position: relative;
+    display: flex;
+    margin: auto;
+    padding: 50px;
+    border: 3px;
+    border-color: deeppink;
+    height: 600px;
+    width: 500px;
+    background-color: darkred;
+}
+
+
+
