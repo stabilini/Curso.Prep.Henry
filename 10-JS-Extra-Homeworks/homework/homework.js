@@ -19,13 +19,16 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
-  var temporal = {};
-  for (var n = 0; n < string.length; n++) {
-    letra = string[n];
-    valor = temporal[letra];
-    temporal[letra] = valor + 1;
-  }
-  return temporal;
+  var arreglo = {};
+  var largo = string.length;
+  for (var n = 0; n < largo; n++) {
+    if (string[n] in arreglo) {
+        arreglo[string[n]] += 1;
+    } else {
+        arreglo[string[n]] = 1;
+    }
+}
+  return arreglo;
 }
 
 
